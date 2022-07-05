@@ -43,9 +43,6 @@ contract Custodian is Ownable, ICustodian {
     }
 
     /// @notice fall back function
-    fallback() external payable {  
-    }
-
     receive() external payable {
     }
 
